@@ -27,4 +27,49 @@ A lightweight, Python-based To-Do List application featuring a user-friendly Tki
    ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
+Auto-Update System
+The app periodically checks an online version file to determine if an update is available.
+
+If a newer version exists, it downloads the updated executable.
+
+Note: Due to Windows restrictions on overwriting running executables, a separate updater helper script is recommended to complete the update process.
+
+You need to host the version file (e.g., version.txt) and updated executable on a web server or GitHub releases with direct links.
+
+Usage
+
+Add tasks with optional due dates.
+
+View and manage your current tasks in a clean, simple interface.
+
+Receive reminders based on due dates.
+
+Keep your app updated easily with the auto-update feature.
+
+Contributing
+Contributions, issues, and feature requests are welcome!
+Feel free to open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License.
+
+Author: Dharshan V
+Year: 2025
+
+---
+
+If you want, I can also help you add:
+
+- Screenshots or GIFs to showcase the UI  
+- Instructions for setting up the auto-update server files  
+- A GitHub Actions workflow to auto-build your EXE on pushes
+
+Just say the word!
+
+
+
+
+
+
+
 
