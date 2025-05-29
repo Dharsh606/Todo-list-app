@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Run todo_app",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/todo_app.py",
+      "console": "integratedTerminal"
+    }
+  ]
+}
